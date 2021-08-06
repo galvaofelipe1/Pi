@@ -6,7 +6,7 @@ x, y = [], []
 #k = 0
 
 
-###criar uma lista para que eo erro seja menor que 0.05%
+###criar uma lista para que o erro seja menor que 0.05%
 while abs(varx) > 0.025/150 and abs(vary)>0.025/150: #o intervalo de testes foi baseado em tentativa e erro
 
     x1,y1 = np.random.uniform(-1,1,2000000), np.random.uniform(-1,1,2000000)#cria os pontos nos eixos x e y
@@ -27,4 +27,4 @@ for i in range(len(x)):
 #agora, sabendo que a área do quadrado é 4, multiplicarei por ((dentro)/(total))
 area_circulo = 4*(dentro/total)
 valor_pi = (area_circulo)
-print(valor_pi)
+print('o valor de pi é :' valor_pi)
