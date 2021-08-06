@@ -27,4 +27,4 @@ for i in range(len(x)):
 #agora, sabendo que a área do quadrado é 4, multiplicarei por ((dentro)/(total))
 area_circulo = 4*(dentro/total)
 valor_pi = (area_circulo)
-print('o valor de pi é :' valor_pi)
+print('o valor de pi é :', valor_pi)
